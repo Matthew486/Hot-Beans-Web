@@ -1,0 +1,51 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  padding: 16px 0px;
+  backdrop-filter: blur(10px);
+}
+
+nav .navitem {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+  padding: 4px;
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Home {
+  background-color: black;
+  color: white;
+}
+
+#Courses {
+  background-color: white;
+  color: black;
+}
+
+#Team {
+  background-color: black;
+  color: white;
+}
+
+#Job {
+  background-color: white;
+  color: black;
+}
+
+#Form {
+  background-color: black;
+  color: white;
+}
